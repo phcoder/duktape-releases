@@ -6,8 +6,8 @@
  *  comments.  Other parts of the header are Duktape internal and related to
  *  e.g. platform/compiler/feature detection.
  *
- *  Git commit fffa346eff06a8764b02c31d4336f63a773a95c3 (v2.6.0).
- *  Git branch v2-maintenance.
+ *  Git commit b'ac4d348bec8e5a32a109c7daae8c97faf58eb413' (b'ac4d348-dirty').
+ *  Git branch b'djgpp-backport'.
  *
  *  See Duktape AUTHORS.rst and LICENSE.txt for copyright and
  *  licensing information.
@@ -183,9 +183,9 @@
  * which Duktape snapshot was used.  Not available in the ECMAScript
  * environment.
  */
-#define DUK_GIT_COMMIT                    "fffa346eff06a8764b02c31d4336f63a773a95c3"
-#define DUK_GIT_DESCRIBE                  "v2.6.0"
-#define DUK_GIT_BRANCH                    "v2-maintenance"
+#define DUK_GIT_COMMIT                    "b'ac4d348bec8e5a32a109c7daae8c97faf58eb413'"
+#define DUK_GIT_DESCRIBE                  "b'ac4d348-dirty'"
+#define DUK_GIT_BRANCH                    "b'djgpp-backport'"
 
 /* External duk_config.h provides platform/compiler/OS dependent
  * typedefs and macros, and DUK_USE_xxx config options so that
